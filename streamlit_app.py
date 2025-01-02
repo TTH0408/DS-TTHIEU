@@ -58,5 +58,5 @@ if file_uploaded is not None:
         st.write(data.describe())
 #8. About
 if st.button("About App"):
-    st.text("Authorization by Mr Hieu")
+    st.text("Published by Mr Hieu")
 
