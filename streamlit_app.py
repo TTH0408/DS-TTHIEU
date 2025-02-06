@@ -10,7 +10,7 @@ st.write(
 )
 
 #1. Create dataframe from file
-file_uploaded = st.file_uploader("Please upload your file (CSV File):")
+file_uploaded = st.sidebar.file_uploader("Please upload your file (CSV File):")
 if file_uploaded is not None:
     data = pd.read_csv(file_uploaded)
 #2. Preview the file
